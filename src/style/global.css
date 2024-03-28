@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    gap: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+.modal-header h1{
+    color: black;
+}
+
+.modal-body input{
+    margin-bottom: 10px;
+}
+
+.inputIdade input {
+    width: 60px;
+}
+
+.table-container{
+    width: 60%;
+}
+
+.table{
+    border: 1px solid rgb(44, 44, 44);
+}
+
+.table td button{
+    border: none;
+    background-color: white;
+    font-size: 22px;
+}
+
+.container-butao-cadastar{
+    width: 100%;
+}
+
+
+.butao-editar{
+    margin-right: 15px;
+}
