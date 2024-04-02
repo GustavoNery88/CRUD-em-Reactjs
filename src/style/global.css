@@ -4,7 +4,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-.container-main{
+body{
+    width: 100%;
+}
+
+.container-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,11 +20,11 @@ h1 {
     color: blue;
 }
 
-.modal-header h1{
+.modal-header h1 {
     color: black;
 }
 
-.modal-body input{
+.modal-body input {
     margin-bottom: 10px;
 }
 
@@ -28,25 +32,53 @@ h1 {
     width: 60px;
 }
 
-.table-container{
+.table-container {
     width: 60%;
 }
 
-.table{
+.table {
     border: 1px solid rgb(44, 44, 44);
 }
 
-.table td button{
+.table td button {
     border: none;
     background-color: white;
     font-size: 22px;
 }
 
-.container-butao-cadastar{
+.container-butao-cadastar {
     width: 100%;
 }
 
 
-.butao-editar{
+.butao-editar {
     margin-right: 15px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .table-container {
+        width: auto;
+    }
+
+    .table-container .table th {
+        font-size: 12px;
+    }
+
+    .table-container .table td{
+        font-size: 10px;
+    }
+    
+    .table td button {
+        font-size: 18px;
+    }
+    
+    .container-butao-cadastar button {
+        font-size: 12px;
+    }
+    
+    .butao-editar {
+        margin-right: 15px;
+    }
+    
 }
