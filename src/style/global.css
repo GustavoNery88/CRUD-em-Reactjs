@@ -80,5 +80,10 @@ h1 {
     .butao-editar {
         margin-right: 15px;
     }
+
+    .alerta{
+        width: 70%;
+        font-size: 15px;
+    }
     
 }
