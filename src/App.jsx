@@ -7,7 +7,7 @@ function App() {
  
   return (
     <>
-      <ToastContainer className="alerta" />
+      <ToastContainer/>
       <div className='container-main'>
         <Formulario />
         <ListaUsuarios/>
